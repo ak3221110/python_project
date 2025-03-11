@@ -6,16 +6,16 @@ menu={
 }
 total_price=0
 #greet
-print("welome to owe restrunt, here is owr menu")
+print("welome to our restaurant, here is our menu")
 print('''
 pizza:50
-coffie:20
+coffee:60
 tea:10
-drink:100
+drink:20
 
 ''')
 
-item_1=input("enter a first item which you want:")
+item_1=input("Enter a first item which you want:")
 if item_1 in menu:
     total_price += menu[item_1]
     print("your item is added ",item_1)
