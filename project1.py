@@ -32,5 +32,13 @@ while True:
     else:
         print("Sorry, please tell me another item.")
 
+    # Ask if they want to add another item
+    another_item = input("Do you want to add another item? (yes/no): ").strip().lower()
+    if another_item == 'no':
+        print("Thank you for your order!")
+        break
+    elif another_item != 'yes':
+        print("Invalid response. Please answer with 'yes' or 'no'.")
+
 # Final output
 print("Your total amount is:", total_price)
